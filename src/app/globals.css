@@ -38,18 +38,25 @@ html {
 body {
   background-color: var(--background);
   color: var(--foreground);
-
-  @variant sm {
-    background-image: linear-gradient(
-      to bottom right,
-      #f8f8f8,
-      var(--background) 20%
-    );
-    background-repeat: no-repeat;
-  }
 }
 
 svg {
   display: block;
   flex-shrink: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #121212;
+    --foreground: #f5f5f5;
+    --color-screen: #1e1e1e;
+    --color-black-10: rgba(255, 255, 255, 0.1);
+    --color-black-50: rgba(255, 255, 255, 0.5);
+    --shadow-textarea: rgba(255, 255, 255, 0.15) 0px 1px 2px 0px inset,
+      rgba(255, 255, 255, 0.08) 1px -2px 2px 0px inset;
+  }
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+  }
 }

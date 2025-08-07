@@ -30,3 +30,13 @@
   animation: wave 1.2s cubic-bezier(0.37, 0, 0.63, 1) infinite;
   opacity: 1;
 }
+
+@media (prefers-color-scheme: dark) {
+  .Footer {
+    background: #1a1a1ab3;
+  }
+
+  [data-scrollable="true"] .Footer {
+    border-top: 1px solid #333;
+  }
+}

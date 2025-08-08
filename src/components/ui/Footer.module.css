@@ -26,6 +26,16 @@
   }
 }
 
+@media (prefers-color-scheme: dark) {
+  .Footer {
+    background: #00000070;
+  }
+
+  [data-scrollable="true"] .Footer {
+    border-top: 1px solid #000;
+  }
+}
+
 .animate-wave {
   animation: wave 1.2s cubic-bezier(0.37, 0, 0.63, 1) infinite;
   opacity: 1;

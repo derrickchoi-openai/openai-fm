@@ -188,8 +188,46 @@ export const Check = (props: IconProps) => {
       <path
         fillRule="evenodd"
         clipRule="evenodd"
-        d="M27.2923 9.55399L15.6198 26.6737C15.494 26.8582 15.2925 26.977 15.0701 26.9979C14.8478 27.0187 14.6277 26.9394 14.4698 26.7815L7.18945 19.5012L8.25011 18.4405L14.8904 25.0808L26.0529 8.70898L27.2923 9.55399Z"
+      d="M27.2923 9.55399L15.6198 26.6737C15.494 26.8582 15.2925 26.977 15.0701 26.9979C14.8478 27.0187 14.6277 26.9394 14.4698 26.7815L7.18945 19.5012L8.25011 18.4405L14.8904 25.0808L26.0529 8.70898L27.2923 9.55399Z"
       />
+    </svg>
+  );
+};
+
+export const Sun = (props: IconProps) => {
+  return (
+    <svg
+      width="36"
+      height="36"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M12 3v1.5M12 19.5V21M4.219 4.219l1.061 1.061M18.72 18.72l1.061 1.061M3 12h1.5M19.5 12H21M4.219 19.781l1.061-1.061M18.72 5.28l1.061-1.061M12 8.25a3.75 3.75 0 1 1 0 7.5 3.75 3.75 0 0 1 0-7.5z" />
+    </svg>
+  );
+};
+
+export const Moon = (props: IconProps) => {
+  return (
+    <svg
+      width="36"
+      height="36"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M21.752 15.002A9.718 9.718 0 0 1 12.004 21.75 9.75 9.75 0 0 1 9.819 2.75a9.712 9.712 0 0 1 .675.03A7.5 7.5 0 0 0 21.752 15.002z" />
     </svg>
   );
 };
